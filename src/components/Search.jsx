@@ -5,7 +5,7 @@ const Search = ({ onSearch, onReset }) => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    onSearch(query);
+    onSearch(query?.trim());
   };
 
   const handleReset = () => {
