@@ -127,7 +127,7 @@ function App() {
 
   return (
     <>
-      <main className=" bg-blue-400 w-screen p-4">
+      <main className=" bg-blue-400 w-screen p-4 min-h-screen">
         <Search onSearch={handleSearch} onReset={handleReset} />
         <DataTable headColumn={columns} loading={loading} data={filteredData} />
       </main>

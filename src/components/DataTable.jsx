@@ -38,8 +38,8 @@ const DataTable = ({ headColumn, data, loading }) => {
 
   if (loading)
     return (
-      <div className="loading bg-white w-[95%] sm:w-[80%] mx-auto rounded-md overflow-hidden">
-        Loading Data ...
+      <div className="loading bg-white w-[95%] sm:w-[80%] mx-auto rounded-md overflow-hidden px-2 py-4 text-lg">
+        Loading Data...
       </div>
     );
 
